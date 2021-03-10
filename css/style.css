@@ -574,7 +574,7 @@ img[src="img/logo.png"] {
     color: var(--color-2);
 }
 .reviews__inner img {
-    width: 100%;
+    height: auto;
 }
 .reviews__inner {
     display: flex;
