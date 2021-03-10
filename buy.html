@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Оформление заказа</title>
+  <style>
+    * {
+      font-family: 'Arial', sans-serif;
+      font-size: 22px;
+      line-height: 34px;
+    }
+    p {
+      text-align: justify;
+    }
+    body {
+      margin: 0;
+    }
+    h1 {
+      font-size: 34px;
+    }
+    h2 {
+      color: #858585;
+      font-size: 26px;
+    }
+    a {
+      text-decoration: none;
+      color: #df751e;
+    }
+    a:hover {
+      border-bottom: 1px solid #df751e;
+      transition: all 0.2s ease;
+    }
+    label {
+      text-align: left;
+      cursor: pointer;
+    }
+    #policy {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #eee;
+    }
+    iframe {
+      margin-top: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Оформление заказа</h1>
+    <h2>Внимание!</h2>
+    <p>После оплаты вы получите доступ к закрытому каналу в телеграм или группе ВК для обучения. Там можно изучать уроки онлайн, задавать свои вопросы в комментариях и делиться своими результатами.</p>
+    <p>Если вы ознакомились с положениями <a href="policy.html" target="_blank">политики конфиденциальности</a> и согласны с этими условиями, то поставьте галочку и переходите к оформлению заказа.</p>
+    
+    <input type="checkbox" id="policy">
+    <label for="policy">Да, я это прочитал(а), возражений не имею и соглашаюсь с условиями политики конфиденциальности.</label>
+    
+    <iframe hidden='hidden' src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%20%D0%BA%D1%83%D1%80%D1%81%D0%B0&targets-hint=&default-sum=5300&button-text=12&payment-type-choice=on&fio=on&phone=on&comment=on&mail=on&hint=%D0%A2%D1%83%D1%82%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D1%83%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%B5%D0%BC%D1%8B%D0%B9%20%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%A2%D0%B5%D0%BB%D0%B5%D0%B3%D1%80%D0%B0%D0%BC%20%D0%B8%D0%BB%D0%B8%20%D0%92%D0%9A&successURL=&quickpay=shop&account=410011260821995" width="100%" height="313" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+  </div>
+
+  <script>
+    policy.addEventListener('change', function(e) {
+      if(this.checked)
+        document.querySelector('iframe').removeAttribute('hidden')
+      else
+        document.querySelector('iframe').setAttribute('hidden', 'hidden')
+    })
+  </script>
+</body>
+</html>
