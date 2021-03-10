@@ -19,7 +19,10 @@
     }
     [mytitle]:hover:after,
     .myTitleClass:after {
+        position: relative;
         width: 260px;
+        left: -35px;
+        top: 5px;
     }
 }
 @media screen and (max-width: 1025px) {
@@ -42,10 +45,11 @@
         margin-top: 20px;
         width: 40%;
     }
-    [mytitle]:hover:after {
+    /* [mytitle]:hover:after,
+    .myTitleClass:after {
         content: '';
         display: none;
-    }
+    } */
     .reviews__card {
         max-width: 40%;
     }

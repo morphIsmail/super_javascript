@@ -427,6 +427,7 @@ img[src="img/logo.png"] {
     color: var(--text);
     margin-bottom: 15px;
     font-size: 24px;
+    text-align: left;
 }
 
 .about__card h5 {
@@ -489,6 +490,7 @@ img[src="img/logo.png"] {
 }
 
 .myTitleClass:after {
+    content: '';
     width: 300px;
     display: block;
     content: attr(mytitle);
@@ -571,7 +573,9 @@ img[src="img/logo.png"] {
 .reviews .section__title {
     color: var(--color-2);
 }
-
+.reviews__inner img {
+    width: 100%;
+}
 .reviews__inner {
     display: flex;
     justify-content: space-around;
