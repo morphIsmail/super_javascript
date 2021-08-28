@@ -19,8 +19,8 @@
 * По завершении курса у вас будет опыт создания множества современных интерактивных элементов для сайта.  
 * Видео курс включает в себя 65 уроков общей продолжительностью 20 часов.
 
-[5 часов бесплатно](https://www.youtube.com/playlist?list=PLuY6eeDuleINoCQtGZsMoVVCSgEH7gKQ5)
-[Трейлер курса](https://youtu.be/HU78HrKW9XI)  
+[5 часов бесплатно](https://www.youtube.com/playlist?list=PLuY6eeDuleINoCQtGZsMoVVCSgEH7gKQ5)  
+[Трейлер курса](https://youtu.be/HU78HrKW9XI)   
 [Купить курс](https://www.udemy.com/course/javascript-super/?referralCode=4C766EEB83F94DC1AE19)
 
 ### Автору на кофе
