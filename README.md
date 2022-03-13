@@ -21,12 +21,11 @@
 
 [5 часов бесплатно](https://www.youtube.com/playlist?list=PLuY6eeDuleINoCQtGZsMoVVCSgEH7gKQ5)  
 [Трейлер курса](https://youtu.be/HU78HrKW9XI)   
-[Купить курс](https://www.udemy.com/course/javascript-super/?referralCode=4C766EEB83F94DC1AE19)
+[Купить курс](https://stepik.org/z/113653)
 
 ### Автору на кофе
 ![Сбер VISA](https://img.shields.io/badge/Card-4274320032331582-333?style=for-the-badge&logo=visa&labelColor=08a652)
 [![Yoomoney](https://img.shields.io/badge/-Yoomoney-7f2bfd?style=for-the-badge)](https://yasobe.ru/na/itdoctor)
-[![PayPal](https://img.shields.io/badge/-PayPal-0070ba?style=for-the-badge&logo=PayPal&logoColor=FF0000)](https://paypal.me/itdoctorstudio)
 
 ### Контакты
 [![YouTube](https://img.shields.io/badge/-YouTube-333?style=for-the-badge&logo=YouTube&logoColor=FF0000)](https://www.youtube.com/c/ITDoctor)
